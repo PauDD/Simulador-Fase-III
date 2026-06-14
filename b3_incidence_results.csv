@@ -1,0 +1,14 @@
+observable,numeric,theory,deviation,tol,verdict
+uniqueness_transverse_inertial,1.0,1.0,0.0,0.0,PASS
+uniqueness_offset_inertial(=0),0.0,0.0,0.0,0.0,PASS
+uniqueness_grazing_inertial,1.0,1.0,0.0,0.0,PASS
+uniqueness_transverse_accelerated,1.0,1.0,0.0,0.0,PASS
+jacobian_numeric_vs_covariant(eq:jacobian),1.7763568394002505e-15,0.0,1.7763568394002505e-15,1e-12,PASS
+jacobian_NR_departure_closed_form,8.881784197001252e-16,0.0,8.881784197001252e-16,1e-12,PASS
+jacobian_NR_slow_limit_exponent(eq:jacobian-nr),2.0256760600645705,2.0,0.02567606006457046,0.2,PASS
+born_TV_convergence_exponent,-0.5067697350307703,-0.5,0.006769735030770274,0.07,PASS
+aberration_density_max_dev,0.01846545217012463,0.0,0.01846545217012463,0.02,PASS
+isometry_i+_||(i+)^dag i+ - I||,0.0,0.0,0.0,1e-13,PASS
+isometry_i-_||(i-)^dag i- - I||,0.0,0.0,0.0,1e-13,PASS
+sector_orthogonality_||(i+)^dag i-||,0.0,0.0,0.0,1e-13,PASS
+sigmaB_flip_geometry_invariance,0.0,0.0,0.0,1e-13,PASS

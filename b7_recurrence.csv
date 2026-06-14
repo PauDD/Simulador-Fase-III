@@ -1,0 +1,5 @@
+N,horizon,R_quartic_at4,sup_minus_lnS_window,sup_minus_lnS_horizon,tau_rec,rec_within_window,factor_quartic_over_bound,factor_window_over_taurec,quartic_exceeds_bound,gate_pass,binding,n_ens,n_c2_ge5sig,frac_c2_ge5sig,gate_a_majority,n_triple_zero,gate_b_no_finetune
+4,120.0,4.248576,0.1693242340490666,1.9061699612618532,81.44,False,25.091364055831797,0.049115913555992145,True,True,quartic>bound x25.09,24,24,1.0,True,0,True
+6,100.0,4.248576,0.315501718165341,5.254743535312206,,False,13.4660946530044,,True,True,quartic>bound x13.47,24,24,1.0,True,0,True
+8,60.0,4.248576,0.8637780580402391,4.217196196736085,,False,4.918596809045224,,True,True,quartic>bound x4.92,24,24,1.0,True,0,True
+10,40.0,4.248576,1.975640558519465,6.946121022766812,,False,2.150480248888928,,True,True,quartic>bound x2.15,24,24,1.0,True,0,True

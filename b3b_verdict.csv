@@ -1,0 +1,7 @@
+gate,criterion,measured,pass
+V1_localization,p_eff grows w/o saturation,saturates,0
+V2_width,q=0.5 in 95% CI,"q=0.451 CI[0.129,0.769]",1
+V3_jacobian,|beta-1|<=0.05,"beta=-1.0000 CI[-1.000,-1.000]",0
+V4_noninterf,cross/diag decays,persists,0
+control_mpmath,control points pass,6/6; max_rel=1.2e-12,1
+V3X_exploratory,derivative-coupling beta (not preregistered),betaX=1.0000,
